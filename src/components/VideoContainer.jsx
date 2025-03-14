@@ -16,11 +16,10 @@ const VideoContainer = () => {
     setVideos(data.items);
   };
 
-  console.log("videos", videos);
 
   return (
     <div className="flex flex-wrap">
-      {videos.map((video) => (
+      {videos?.map((video) => (
         <Link to={`/watch?v=${video.id}`}>
           <VideoCard key={video.id} info={video} />
         </Link>
