@@ -30,6 +30,10 @@ ipho:
 - Built nested comments feature using mock data and recursion
 
 - Built live chat with mock data by adding a poll time of 2 secs
+<img src="public/LiveChat.png" width="1000">
+
 - Added an input to send our text in live chat
 - Live Chat >>> Infinite scroll >>> pagination
 - Splicing comments from older ones if they exceed particular OFF_SET size
+
+
