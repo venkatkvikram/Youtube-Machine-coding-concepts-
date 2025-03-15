@@ -26,6 +26,10 @@ iph:
 ipho:
 }
 
-used map data structure to store the searchQuery in cache to avoid redudant API calls
-Built nested comments feature using mock data and recursion
+- Used map data structure to store the searchQuery in cache to avoid redudant API calls (search opitmization)
+- Built nested comments feature using mock data and recursion
 
+- Built live chat with mock data by adding a poll time of 2 secs
+- Added an input to send our text in live chat
+- Live Chat >>> Infinite scroll >>> pagination
+- Splicing comments from older ones if they exceed particular OFF_SET size

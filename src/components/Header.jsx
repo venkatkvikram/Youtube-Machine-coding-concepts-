@@ -7,7 +7,7 @@ import { cacheResults, clearCache } from "../redux/searchSlice";
 
 const Header = () => {
   const dispatch = useDispatch();
-  const [searchQuery, setSearchQuery] = useState(null);
+  const [searchQuery, setSearchQuery] = useState("");
   const [suggestions, setSuggestions] = useState([]);
   const [showSuggestions, setShowSuggestions] = useState(false);
   const searchCache = useSelector((store) => store.search);
